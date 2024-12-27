@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debouncing and Throttling Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .results, .counter {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Debouncing and Throttling</h1>
+    <input type="text" id="search-bar" placeholder="Type to search...">
+    <div class="results" id="results">Results will appear here.</div>
+    <button id="click-button">Click Me!</button>
+    <div class="counter" id="counter">Click count: 0</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
